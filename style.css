@@ -1,0 +1,87 @@
+/* Default style */
+
+body{
+    background-color: rgb(185, 94, 52);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+h1{
+    color:rgb(241, 147, 179);
+}
+
+p{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size:medium;
+}
+
+.pic{
+    width: 200px;
+    border-radius: 10px ;
+}
+
+/* Styles for Mobile view port */
+
+@media (max-width: 600px) {
+    body{
+        background-color: rgb(172, 162, 23);
+    }
+
+    h1{
+        font-size: 24px;
+        color:black;
+    }
+    P{
+        font-size: 16px;
+    }
+    
+.pic{
+    width: 200px;
+    border-radius: 10px ;
+}
+
+}
+
+/* Styles for Tablet view port */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    h1{
+        font-size: 32px;
+    }
+    P{
+        font-size: 18px;
+    }
+    
+.pic{
+    width: 200px;
+    border-radius: 10px ;
+}
+
+}
+
+
+/* Styles for Desktop view port */
+
+@media (min-width: 1025px) {
+    body{
+        background-color: rgb(241, 208, 59);
+    }
+
+    h1{
+        font-size: 48px;
+        color:rgb(167, 77, 18);
+    }
+    P{
+        font-size: 20px;
+    }
+    
+.pic{
+    width: 200px;
+    border-radius: 10px ;
+}
+
+}
+
